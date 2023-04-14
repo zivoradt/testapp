@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/samsungone" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+    <div class="header-container">
+        <div class="h1-div">
+            <h1 class="first-h1">Search products by names or series:</h1>
+        </div>
+        
+        <div class="search">
+            <input type="text" id="text_search" name="text_search" placeholder="Search..."/>
+            <div class="search-div">
+            <div type="button" id="search_button">
+                <img class="img-div" src="assets/search-icon.png" alt="search_pic"/>
+            </div>
+        </div>
+        </div>
+
+        <div class="sort-div">
+            <div class="sort-class">
+            <label class="labell" for="sort">Sort by:</label>
+            <select id="sort" name="sort"></select>
+            </div>
+            <div class="sort-class">
+            <label class="labell" for="color">Color:</label>
+            <select id="color" name="color"></select>
+            </div>
+            <div class="sort-class">
+            <label class="labell" for="sim">Sim:</label>
+            <select  id="sim" name="sim"></select>
+            </div>
+            <div class="sort-class">
+            <label class="labell" for="camera">Main Camera:</label>
+            <select id="camera" name="camera"></select>
+            </div>
+        </div>
+    </div>
+
+<div class="main">
+    <div class="wrapper">
+        <div class="contentWrapper">
+            <div class="content active" id="container">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="load_more_button" show="true">Load more products</div>
+</div>
+<a class="a-fixed"href="#">
+    <span class="top"></span>
+  </a>
+<script src="index.js" type="module"></script>
+</div>
+</div>
+</body>
+</html>
